@@ -1,0 +1,42 @@
+﻿# Codex upload ignore rules
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies and virtual environments
+node_modules/
+venv/
+.venv/
+env/
+ENV/
+vendor/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Build output and caches
+.next/
+.nuxt/
+dist/
+build/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# Logs and OS/editor noise
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
